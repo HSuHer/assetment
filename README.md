@@ -8,3 +8,8 @@ To run the server fist you have to install node modules
 
 This start the server in localhost:3000
 
+The base url is:
+
+http://localhost:3000/api/contacts
+
+
