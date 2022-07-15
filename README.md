@@ -1,10 +1,11 @@
 # Assetment 
 Test back end
+> **⚠ WARNING: You have to have installed Node.JS**  
+
 
 ## Run locally
-To run the server fist you have to install node modules
-1. Run `npm install`
-2. Run `npm run dev`
+To run the server you have to run the script
+1. Run `npm run dev`
 
 This start the server in localhost:3000
 
