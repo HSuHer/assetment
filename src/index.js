@@ -3,12 +3,6 @@ const  express = require("express");
 const morgan = require("morgan");
 const app = express();
 
-
-app.use(function(err, req, res, next) {
-    console.error(err.stack);
-    res.status(500).send('Something broke!');
-  });
-  
 //Define server and options
 app.set('port',process.env.PORT || 3000);
 app.set('json spaces',2)
